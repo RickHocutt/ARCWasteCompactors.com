@@ -5,11 +5,13 @@ name: Contact
 ---
 
 <main id="main">
-    <div class="container mb-24">
+    <div class="container mb-6">
         <h1 class="my-4 text-4xl">Contact Us</h1>
 
         <div class="flex flex-wrap md:-mx-6">
             <div class="w-full md:w-2/3 md:px-6">
+                <p class="mb-4">Our main priority is to provide the best service possible. When you submit the form below we'll have one of our team members contact you as soon as possible.</p>
+
                 <form class="form contact" name="contact" method="POST" action="/thank-you/" netlify-honeypot="bot-field" data-netlify="true">
                     <div class="mb-6">
                         <label class="block text-gray-700 text-sm font-bold mb-2" for="name">Name</label>
@@ -37,7 +39,7 @@ name: Contact
                     </div>
 
                     <div class="mb-6">
-                        <button class="bg-blue-500 text-white hover:bg-blue-600 rounded shadow hover:shadow-lg py-3 px-6 text-2xl" type="submit">Get In Touch</button>
+                        <button class="button" type="submit">Get In Touch</button>
                     </div>
                 </form>
         </div>
