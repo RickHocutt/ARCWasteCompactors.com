@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Retail",
+    "image": "retail.jpg"
+  },
+  {
+    "name": "Grocery Store Chains",
+    "image": "grocery-store.jpg"
+  },
+  {
+    "name": "Restaraunts",
+    "image": "restaraunt.jpg"
+  },
+  {
+    "name": "Commercial Property",
+    "image": "commercial-property.jpg"
+  },
+  {
+    "name": "Gas Stations",
+    "image": "gas-station.jpg"
+  },
+  {
+    "name": "Warehouses",
+    "image": "warehouses.jpg"
+  },
+  {
+    "name": "Municipalities",
+    "image": "municipalities.jpg"
+  },
+  {
+    "name": "School Districts/Universities",
+    "image": "universities.jpg"
+  },
+  {
+    "name": "Manufacturing",
+    "image": "manufacturing.jpg"
+  },
+  {
+    "name": "Industrial",
+    "image": "industrial.jpg"
+  }
+]
