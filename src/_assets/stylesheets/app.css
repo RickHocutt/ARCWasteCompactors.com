@@ -21,4 +21,9 @@ a {
 	@apply bg-secondary text-gray-900;
 }
 
+.hero--home {
+	background: url('/static/hero.png') no-repeat center 150px #dfb;
+	min-height: 500px;
+}
+
 /* purgecss end ignore */

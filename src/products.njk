@@ -10,8 +10,9 @@ title : Waste & Recycling Equipment
             {% for product in products %}
             <div class="w-full mb-4 lg:w-1/2 lg:px-4 text-gray-900">
                 <div class="h-full flex flex-col bg-white rounded-lg overflow-hidden shadow-md">
-                    <div class="h-80 bg-cover bg-top text-center overflow-hidden"
-                    style="background-image: url('/static/product-images/{{ product.image }}')"></div>
+                    <div class="text-center overflow-hidden">
+                    <img src="/static/product-images/{{ product.image }}">
+                    </div>
 
                     <div class="flex flex-col flex-grow space-y-4 justify-between px-4 py-4">
                         <div>
@@ -21,7 +22,7 @@ title : Waste & Recycling Equipment
                         <div>
                             <h3 class="text-xl">Applications</h3>
                             {% for application in product.applications %}
-                            <span class="rounded-full mr-2 my-2 px-4 py-2 bg-secondary inline-block text-sm">{{ application }}</span>
+                            <span class="rounded-full mr-2 my-2 px-2 py-1 bg-secondary inline-block text-sm">{{ application }}</span>
                             {% endfor %}
                         </div>
                         <div class="text-center">
