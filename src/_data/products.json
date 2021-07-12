@@ -5,10 +5,12 @@
     "description": "Self-contained compactors are ideal for wet waste processing. They are highly effective at keeping the area clean and odors at a minimum. The high amount of compaction will reduce the number of hauls and your costs.",
     "applications": [
       "Retail",
-      "Grocery Stores",
       "Restaraunts",
-      "Gas Stations",
-      "Warehouses"
+      "Grocery Stores",
+      "Property Managers",
+      "Hospitals / Healthcare",
+      "Government / Municipalities",
+      "Schools/Universities"
     ]
   },
   {
@@ -16,11 +18,11 @@
     "image": "stationary-compactor.jpg",
     "description": "Stationary Compactors are your best compaction value. Built for reliable performance in commercial and medium industrial situations, they effectively reduce solid-waste material to a fraction of its original size.",
     "applications": [
-      "Retail",
-      "Grocery Stores",
-      "Restaraunts",
-      "Gas Stations",
-      "Warehouses"
+      "Industry/Manufacturing",
+      "Property Managers",
+      "Warehouses / Distribution",
+      "Government / Municipalities",
+      "Schools / Universities"
     ]
   },
   {
@@ -28,11 +30,8 @@
     "image": "apartment-compactor.jpg",
     "description": "Our apartment compactor is a perfect solution where space is limited. The open design allows for easy access and maintenance. All hose fittings are accessible with the ram at any position. Self-cleaning chargebox floor prevents backpack and allows air circulation to reduce trapped moisture. Cylinders are coated with a two-part epoxy for long life. Pipe connections are welded.",
     "applications": [
-      "Retail",
-      "Grocery Stores",
-      "Restaraunts",
-      "Gas Stations",
-      "Warehouses"
+      "Property Managers",
+      "Government / Municipalities"
     ]
   },
   {
@@ -40,11 +39,14 @@
     "image": "vertical-compactor.jpg",
     "description": "Vertical trash compactors with containers are ideal for applications where space for a compaction system is limited, or where roll-off collection service is not available. This compactor is designed to handle dry or wet waste.",
     "applications": [
-      "Retail",
       "Grocery Stores",
-      "Restaraunts",
+      "Retail",
+      "Restaurants",
       "Gas Stations",
-      "Warehouses"
+      "Property Managers",
+      "Hospital / Healthcare",
+      "Government / Municipalities",
+      "Schools / Universities"
     ]
   },
   {
@@ -52,11 +54,9 @@
     "image": "vertical-baler.jpg",
     "description": "Heavy Duty Vertical Balers feature many innovations for ease of use and maintenance-friendly access. Features such as the side-mounted power unit, front-facing panel box, and redundant feed gate interlock system, all add up to a reliable baler for years of trouble-free recycling.",
     "applications": [
-      "Retail",
-      "Grocery Stores",
-      "Restaraunts",
-      "Gas Stations",
-      "Warehouses"
+      "Recycling",
+      "Warehouse / Distribution",
+      "Industry / Manufacturing"
     ]
   }
 ]
