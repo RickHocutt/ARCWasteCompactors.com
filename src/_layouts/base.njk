@@ -19,17 +19,17 @@
         <img src="/static/arc-logo-horizontal.svg" alt="ARC Waste Compactors" class="w-18">
       </a>
 
-      <div class="flex flex-wrap justify-center md:justify-between items-center">
+      <nav class="flex flex-wrap justify-center md:justify-between items-center">
         <ul class="flex text-lg my-4 mr-4">
-          <li class="px-2"><a href="/" class="no-underline">Home</a></li>
-          <li class="px-2"><a href="/products" class="no-underline">Products</a></li>
-          <li class="px-2"><a href="/contact" class="no-underline">Contact Us</a></li>
+          <li class="px-2"><a href="/" class="no-underline {% if name === 'Home' %}border-b-2 border-primary{% endif %}">Home</a></li>
+          <li class="px-2"><a href="/products" class="no-underline {% if name === 'Products' %}border-b-2 border-primary{% endif %}">Products</a></li>
+          <li class="px-2"><a href="/contact" class="no-underline {% if name === 'Contact' %}border-b-2 border-primary{% endif %}">Contact Us</a></li>
         </ul>
         <a class="button secondary" href="/contact/">
           <i class="fas fa-phone-alt"></i>
           Call Us
         </a>
-      </div>
+      </nav>
     </header>
     {{ content | safe }}
     <footer class="bg-primary py-6">
