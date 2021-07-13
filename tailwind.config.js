@@ -1,7 +1,23 @@
 module.exports = {
   theme: {
+    container: {
+      center: true,
+      padding: {
+        DEFAULT: '1rem',
+        sm: '1rem',
+        lg: '2rem'
+      },
+    },
     extend: {
       colors: {
+        'primary': {
+          DEFAULT: '#27a',
+          'light': '#79b'
+        },
+        'secondary': {
+          DEFAULT: '#8c4',
+          'light': '#dfb'
+        },
         'ws-blue': {
           100: '#E6F0FF',
           200: '#BFDAFF',

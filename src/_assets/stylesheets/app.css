@@ -3,55 +3,31 @@
 @import 'utils/_accessibility.css';
 
 /* purgecss start ignore */
+@layer base {
+	:focus, button:focus {
+			outline: solid  3px rgba(0,0,0,0.05);
+			outline-offset: 4px;
+	}
 
-:focus, button:focus {
-    outline: solid  3px rgba(0,0,0,0.05);
-    outline-offset: 4px;
-}
+	body {
+		@apply text-gray-900;
+	}
 
-a {
-	@apply text-ws-blue-500 underline;
-}
+	a {
+		@apply text-primary underline;
+	}
 
-.rocket {
-	animation: rocket 0.7s linear infinite both;
-}
+	.button {
+		@apply inline-block no-underline bg-primary text-white hover:bg-blue-600 rounded shadow hover:shadow-lg py-3 px-6 text-lg;
+	}
 
-@keyframes rocket {
-	0% {
-		transform: translate(0);
-		transform: rotate(0);
+	.button.secondary {
+		@apply bg-secondary text-gray-900;
 	}
-	10% {
-		transform: translate(-1px, -1px);
-	}
-	20% {
-		transform: translate(1px, -1px);
-	}
-	30% {
-		transform: translate(-1px, 1px);
-	}
-	40% {
-		transform: translate(1px, 1px);
-	}
-	50% {
-		transform: translate(-1px, -1px);
-	}
-	60% {
-		transform: translate(1px, -1px);
-	}
-	70% {
-		transform: translate(-1px, 1px);
-	}
-	80% {
-		transform: translate(-2px, -2px);
-	}
-	90% {
-		transform: translate(2px, -2px);
-	}
-	100% {
-		transform: translate(0);
+
+	.hero--home {
+		background: url('/static/hero.png') no-repeat center 150px #dfb;
+		min-height: 500px;
 	}
 }
-
 /* purgecss end ignore */
