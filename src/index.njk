@@ -23,55 +23,50 @@ name: Home
         </div>
     </div>
 
-    <div class="py-8">
-        <div class="container mx-auto px-6">
-            <h2 class="text-3xl text-center">How We Help you</h2>
+    <div class="container mx-auto p-6">
+        <h2 class="text-3xl text-center">How We Help you</h2>
 
-            <div class="flex flex-wrap my-6 lg:-mx-6">
-                <div class="w-full mb-4 lg:w-1/3 lg:px-6">
-                    <div class="block h-full bg-white rounded-lg overflow-hidden mb-8 shadow-md">
-                        <div class="w-full">
-                            <div class="h-80 lg:h-48 bg-cover bg-top text-center overflow-hidden"
-                            style="background-image: url('/static/help-you-cards/rental.jpg')"></div>
-                            <div class="px-4 pt-4">
-                                <h2 class="text-xl text-center mb-2">Nationwide Rental Programs</h2>
-                                <p>
-                                    Rent a commercial waste compactor from ARC, and get the peace of mind that comes with best-in-class service included.
-                                    Our expert local installers will guide your setup and staff training.
-                                </p>
-                            </div>
+        <div class="flex flex-wrap lg:-mx-6">
+            <div class="w-full my-4 lg:w-1/3 lg:px-6">
+                <div class="block h-full bg-white rounded-lg overflow-hidden shadow-md">
+                    <div class="w-full">
+                        <img src="/static/help-you-cards/rental.jpg" alt="Stationary waste compactor" class="w-full" />
+                        <div class="p-4">
+                            <h2 class="text-xl text-center mb-2">Nationwide Rental Programs</h2>
+                            <p>
+                                Rent a commercial waste compactor from ARC, and get the peace of mind that comes with best-in-class service included.
+                                Our expert local installers will guide your setup and staff training.
+                            </p>
                         </div>
                     </div>
                 </div>
+            </div>
 
-                <div class="w-full mb-4 lg:w-1/3 lg:px-6">
-                    <div class="block h-full bg-white rounded-lg overflow-hidden mb-8 shadow-md">
-                        <div class="w-full">
-                            <div class="h-80 lg:h-48 bg-cover bg-top text-center overflow-hidden"
-                            style="background-image: url('/static/help-you-cards/purchase.jpg')"></div>
-                            <div class="px-4 pt-4">
-                                <h2 class="text-xl text-center mb-2">Purchase Programs</h2>
-                                <p>
-                                    Buy a commercial waste compactor from ARC and let our expertise guide your installation.
-                                    Use our responsive local service whenever you have need.
-                                </p>
-                            </div>
+            <div class="w-full my-4 lg:w-1/3 lg:px-6">
+                <div class="block h-full bg-white rounded-lg overflow-hidden shadow-md">
+                    <div class="w-full">
+                        <img src="/static/help-you-cards/purchase.jpg" alt="Self contained waste compactor" class="w-full" />
+                        <div class="p-4">
+                            <h2 class="text-xl text-center mb-2">Purchase Programs</h2>
+                            <p>
+                                Buy a commercial waste compactor from ARC and let our expertise guide your installation.
+                                Use our responsive local service whenever you have need.
+                            </p>
                         </div>
                     </div>
                 </div>
+            </div>
 
-                <div class="w-full mb-4 lg:w-1/3 lg:px-6">
-                    <div class="block h-full bg-white rounded-lg overflow-hidden mb-8 shadow-md">
-                        <div class="w-full">
-                            <div class="h-80 lg:h-48 bg-cover bg-top text-center overflow-hidden"
-                            style="background-image: url('/static/help-you-cards/service.jpg')"></div>
-                            <div class="px-4 pt-4">
-                                <h2 class="text-xl text-center mb-2">Service & Maintenance</h2>
-                                <p>
-                                    Hire us for responsive local service, 6-month preventative maintenance, and on-demand repairs.
-                                    When you buy from us, you get access to the same trusted services.
-                                </p>
-                            </div>
+            <div class="w-full my-4 lg:w-1/3 lg:px-6">
+                <div class="block h-full bg-white rounded-lg overflow-hidden shadow-md">
+                    <div class="w-full">
+                        <img src="/static/help-you-cards/service.jpg" alt="Service technician holding a wrench" class="w-full" />
+                        <div class="p-4">
+                            <h2 class="text-xl text-center mb-2">Service & Maintenance</h2>
+                            <p>
+                                Hire us for responsive local service, 6-month preventative maintenance, and on-demand repairs.
+                                When you buy from us, you get access to the same trusted services.
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -80,13 +75,13 @@ name: Home
     </div>
 
     <div class="bg-white shadow-md">
-        <div class="container text-center text-gray-900">
+        <div class="container text-center text-gray-900 p-6">
             <h2 class="text-2xl">
                 Waste haulers should not trap their customers with a service that allows waste to pile up,
                 odors to become a problem, and equipment to remain broken down.
             </h2>
 
-            <div class="flex justify-center py-6 space-x-6">
+            <div class="flex justify-center pt-6 space-x-6">
                 <a class="button secondary" href="/contact/">
                     <i class="fas fa-phone-alt"></i>
                     Call Us
@@ -101,7 +96,7 @@ name: Home
     <div class="container mx-auto p-6">
         <h2 class="text-3xl text-center">Industry Applications</h2>
 
-        <div class="flex flex-wrap mb-12">
+        <div class="flex flex-wrap">
             {% for application in applications %}
             <div class="w-1/2 lg:w-1/5 my-6 text-center">
                 <img src="/static/applications/{{ application.image }}" class="rounded-full mx-auto shadow-md w-20 h-20 md:w-40 md:h-40">
@@ -111,36 +106,33 @@ name: Home
         </div>
     </div>
 
-     <div class="py-8">
-        <div class="container mx-auto px-6">
-            <h2 class="text-3xl text-center">Products</h2>
+    <div class="container mx-auto p-6">
+        <h2 class="text-3xl text-center">Products</h2>
 
-            <div class="flex flex-wrap justify-center my-6 lg:-mx-6">
-                {% for product in products %}
-                <div class="w-full mb-6 px-6 lg:w-1/3">
-                    <a href="/products" class="block h-full bg-white rounded-lg text-gray-900 no-underline overflow-hidden mb-8 shadow-md hover:shadow-xl transition duration-300">
-                        <div class="w-full">
-                            <div class="h-80 lg:h-48 bg-cover bg-top text-center overflow-hidden"
-                            style="background-image: url('/static/product-cards/{{ product.image }}')"></div>
-                            <div class="px-4 pt-4">
-                                <h2 class="text-xl text-center mb-2">{{ product.name }}</h2>
-                            </div>
+        <div class="flex flex-wrap justify-center lg:-mx-6">
+            {% for product in products %}
+            <div class="w-full my-4 lg:w-1/3 lg:px-6">
+                <a href="/products" class="block h-full bg-white rounded-lg text-gray-900 no-underline overflow-hidden shadow-md hover:shadow-xl transition duration-300">
+                    <div class="w-full">
+                        <img src="/static/product-cards/{{ product.image }}" alt="" class="mx-auto" />
+                        <div class="p-4">
+                            <h2 class="text-xl text-center">{{ product.name }}</h2>
                         </div>
-                    </a>
-                </div>
-                {% endfor %}
+                    </div>
+                </a>
             </div>
+            {% endfor %}
         </div>
     </div>
 
     <div class="bg-white shadow-md">
-        <div class="container mx-auto p-4 text-center text-gray-900">
+        <div class="container text-center text-gray-900 p-6">
             <h2 class="text-2xl">
                 Don’t risk embarrassment about the condition of your property. Don’t allow yourself to be frustrated by trash pile-up,
                 odor, high prices for frequent trash removal, and unresponsive service.
             </h2>
 
-            <div class="flex justify-center py-6 space-x-6">
+            <div class="flex justify-center pt-6 space-x-6">
                 <a class="button secondary" href="/contact/">
                     <i class="fas fa-phone-alt"></i>
                     Call Us
